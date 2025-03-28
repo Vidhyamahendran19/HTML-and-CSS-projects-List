@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+
+.head{
+    display: flex;
+    position: relative;
+    top:25px;
+
+}
+.logo{
+width:30px;
+}
+
+nav ul li {
+  display: inline-block;
+   position: relative;
+  left: 25%;
+  bottom:20px;
+  margin-right: 50px;
+  align-items: center;
+  color:#767676;
+  font-weight:bold;
+  font-size: larger;
+ 
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+.btn{
+    border-radius: 20px;
+    background-color: #04ddb2;
+    color:#ffff;
+    padding:15px;
+    margin: 10px 22px;
+    position: relative;
+    bottom:20px;
+}
+.main{
+    display: flex;
+    margin-left: 35%;
+    padding-top: 5%;
+    position: relative;
+    left:30px;
+    margin-bottom: 20px;
+}
+.txt2{
+    color:#04ddb2;
+  position: relative;
+left:25px;
+}
+.subtext{
+    display: inline-block;
+ margin-left: 30%;
+ margin-top: 20px;
+ margin-bottom: 25px;
+ word-spacing: 4px;
+ font-size: large;
+ font-weight:100;
+ color:#767676;
+}
+
+.main-box img{
+    border-radius: 20px;
+    position: relative;
+    top:20px;
+    left:18%;
+  
+}
+.content{
+ position: relative;
+top: 40px;
+left:38%;
+margin-top: 20px;
+}
+.btn-2{
+    margin-left:50px;
+}
+.btn-2 button{
+     border-radius: 20px;
+    background-color: #04ddb2;
+    color:#ffff;
+    border-style: none;
+    padding:18px;
+    margin: 12px 30px;
+    position:relative;
+left: 36%;
+top:60px;
+}
+.box3{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top:120px;
+    margin-top: 20px;
+}
+
+.box3 div ul li {
+list-style: none;
+
+}
+.logo1 {
+    display: flex;
+    flex-direction: column;
+line-height: 50px;}
+.about{
+     display: flex;
+    flex-direction: column;
+line-height: 50px;}
+.general{
+display: flex;
+    flex-direction: column;
+line-height: 50px;
+}
+.Resources{
+display: flex;
+    flex-direction: column;
+line-height: 50px;
+}
+.socialicon{
+display: flex;
+line-height: 50px;
+}
+
+.fa-solid{
+    letter-spacing: 15px;
+    color: #04ddb2;
+
+}
+
+.fa-brands{
+        letter-spacing: 15px;
+color: #04ddb2;
+
+
+}
+
+html, body{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+overflow-x: hidden;}
+
+body{
+ padding-left: 80px;
+}
