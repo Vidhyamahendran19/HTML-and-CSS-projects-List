@@ -9,6 +9,7 @@
     display: flex;
     position: relative;
     top:25px;
+    animation-delay: 2.5git as;
 
 }
 .logo{
@@ -150,4 +151,18 @@ overflow-x: hidden;}
 
 body{
  padding-left: 80px;
+}
+
+.animi{
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: moveup 0.8s linear forwards;
+}
+@keyframes moveup {
+    100%{
+        opacity: 1;
+            transform: translateX(0px);
+
+    }
+    
 }
