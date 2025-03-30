@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header{
+    width:100vw;
+    height:8vh;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+}
+.header h5{
+    color:white;
+    text-transform:uppercase;
+margin-top: 25px;
+margin-left: 5%;
+padding-bottom: 25px;
+position: relative;
+bottom:10px;
+font-size: 18px;
+}
+.header nav, ul, li{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10%;
+}
+
+nav, ul, li, a{
+    margin-right: 40px;
+    margin-left: 40px;
+    text-decoration: none;
+    color:#fff;
+    font-size:18px;
+}
+.header a:hover{
+    padding-bottom: 5px;
+   border-bottom: 3px solid rgb(226, 186, 125);
+}
+    
+.main-1  img{
+    width:100vw;
+    height:100vh;  
+}
+
+.main-1 .txt1{
+color:white;
+position: absolute;
+bottom:60%;
+left: 420px;
+padding-bottom: 5px;
+font-size: 55px;
+}
+.main-1 .txt2{
+    color:white;
+    position: absolute;
+    bottom: 30px;
+    left:400px;
+    font-size: 55px;
+}
+button{
+    margin-bottom: 5px;
+}
+.btn button{
+    padding: 10px 20px;
+    margin: 1% 4%;
+    background-color: burlywood;
+ font-style: oblique;
+ font-size: 14px;
+ border-radius: 2px solid black;
+position: absolute;
+top:95%;
+left:44%;
+
+cursor: pointer;
+}
+.box{
+    display: flex;
+  background-color: black;
+  color:white;
+  position: relative;
+  bottom:15px;
+}
+.img-box {
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 2%;
+    margin-left: 20px;
+}
+.para-box{
+    margin-top: 12%;
+
+}
+.line{
+position: relative;
+bottom:20px;
+font-size: 30px;
+right:3%;
+}
+.para{
+    font-size:60px;
+}
+.text{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.btn-1{
+    padding: 10px 20px;
+    margin: 4% 18%;
+    background-color: burlywood;
+ font-style: oblique;
+ font-size: 14px;
+ border-radius: 2px solid black;
+cursor: pointer;
+}
+.box2{
+    width:100vw;
+    height:60vh;
+    background-color: black;
+    position: relative;
+    bottom:40px;
+}
+
+.img-box2 img{
+    height:40vh;
+    width:30vw;
+    position:absolute;
+    top:20%;
+    left:750px;
+
+}
+.parabox2{
+    color:white;
+
+}
+.text2{
+    font-size: 40px;
+    margin-left: 120px;
+    padding-top: 80px;
+}
+.text3{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.btn-2{
+    padding: 10px 20px;
+    margin: 2% 10%;
+    background-color: burlywood;
+ font-style: oblique;
+ font-size: 14px;
+ border-radius: 2px solid black;
+cursor: pointer;
+}
+.pic1{
+    width:10vw;
+    height:12vh;
+    position:absolute;
+    left:120px;
+    bottom:68%;
+}
+.final{
+    background-color: black;
+    position: relative;
+    bottom:50px;
+    color:white;
+    height:100vh;
+ 
+}
+.product {
+    color:white;
+    font-size:50px;
+    margin-top:10px;
+    margin-left:20px;
+    margin-bottom: 45px;
+}
+
+.box3  {
+   display: inline-block;
+   padding:8% 5%;
+    border: 2px solid rgb(226, 209, 123);
+    border-radius: 10px;
+    margin: 5% 5%;
+}
+#head1{
+    font-size:25px;
+    font-weight: bold;
+}
+.box3 p{
+    padding-bottom: 20px;
+}
+.boxes{
+    display: flex;
+}
+.pic2{
+  width:10vw;
+    height:12vh;
+    position: relative;
+    left:20%;
+    top:35px;
+  
+}
+.pic3{
+  width:10vw;
+    height:12vh;
+  position:absolute;
+  right:16%;
+  bottom:68%;
+}
+.box-final{
+    background-color: black;
+    color:white;
+    position: relative;
+bottom:50px;
+    height:50vh;
+    display: flex;
+justify-content: space-evenly;
+border-top:  2px solid rgb(226, 209, 123);
+border-top-width: 3px;
+padding-top: 60px;
+
+}
+.About  span{
+    font-size: 40px;
+   font-weight: bold;
+   display: inline-block;
+   padding-bottom: 30px;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+.Contact span{
+    font-size: 40px;
+   font-weight: bold;
+      display: inline-block;
+   padding-bottom: 30px;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.opening span{
+    font-size: 40px;
+   font-weight: bold;
+   padding-bottom: 30px;
+      display: inline-block;
+   padding-bottom: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+.color-txt{
+    color: rgb(226, 209, 123);
+    margin-left: 10px;
+}
+.copyright{
+    background-color: black;
+    color:white;
+    height:10vh;
+    position: relative;
+    bottom:50px;
+    border-top:  2px solid rgb(226, 209, 123);
+border-top-width: 3px;
+}
+.copyright p{
+    text-align: center;
+    padding-top:20px ;
+}
+.mainbody{
+    opacity: 0.;
+transform: translateY(30px);
+animation: movesup 2s linear forwards;
+transition: 0.8s;
+animation-delay: 1.5s;
+
+}
+@keyframes movesup {
+    100%{
+        opacity:1;
+        transform: translateY(0px);
+
+    }
+}
