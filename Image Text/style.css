@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:#000;
+}
+.heading{
+    padding-left:90px;
+    font-size:5rem;
+    font-weight:bold;
+    font-family:sans-serif;
+    background:url('https://images.pexels.com/photos/21708270/pexels-photo-21708270/free-photo-of-a-large-group-of-white-flowers-with-green-leaves.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size:cover;
+    background-clip:text;
+    --webkit-background-clip:text;
+    color:transparent;
+
+}
