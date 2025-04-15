@@ -71,6 +71,114 @@ width:550px;
    width:100%;
    height: 100%;
    border-radius:100%;
-   margin:40px auto;
+   margin:40px 80px;
    
+}
+.btn1{
+            margin-top:20px;
+            margin-bottom:20px;
+}
+ .btn1 a {
+       background:#000;
+    color:#fff;
+    cursor:pointer;
+    font-size:12px;
+    padding:10px 30px;
+        text-decoration:none;border-radius:30px;
+
+    }
+    .btn2 a{
+        text-decoration:none;
+        color:#000;
+         font-size:13px;
+         font-weight:bold;
+       
+    }
+    .btn2{
+ margin-bottom :10px;
+ position:relative;
+ left:20px;
+ top:6px;
+    }
+    .btn-class {
+        display:flex;
+        align-items:center;
+        
+    }
+    .head1{
+        color:rgba(102, 96, 96, 0.91);
+        font-size:50px;
+        text-transform:uppercase;
+        margin-bottom:3px;
+    }
+    .head2{
+         font-size:50px;
+                 text-transform:uppercase;
+
+    }
+    .main-text h1{
+        color:rgba(43, 42, 42, 0.91);
+        font-size:40px;
+    }
+    .main-head{
+        display:flex;
+        justify-content:space-evenly;
+        margin-top:80px;
+    }
+    .cat1{
+        margin-left:40%;
+        margin-top:150px;
+    }
+    .cat1 .head2{
+        margin-left:40px;
+    }
+    .cat2{
+        display:flex;
+        margin-bottom:120px;
+    }
+    .img-sec{
+           display:flex;
+           justify-content:space-between;
+
+    }
+.img-sec img{
+    height:300px;
+        width:250px;
+        margin-right:80px;
+        margin-left:80px;
+        margin-top:50px;
+        background:rgb(179, 205, 215);
+        border-top-left-radius:50%;
+                border-top-right-radius:50%;
+
+}
+.img-text{
+    display:flex;
+               justify-content:space-between;
+               
+}
+.img-para1{
+    background:rgb(103, 100, 100);
+     width:250px;
+     position:relative;
+     bottom:150px;
+     height:150px;
+ left:80px;
+
+}
+.img-para2 {
+ background:rgb(103, 100, 100);
+     width:250px;
+     position:relative;
+     bottom:150px;
+     height:150px;
+     right:38px;
+}
+.img-para3{
+background:rgb(103, 100, 100);
+     width:250px;
+     position:relative;
+     bottom:150px;
+     height:150px;
+     
 }
