@@ -4,10 +4,14 @@
     box-sizing:border-box;
     font-family:'poppins',sans-serif;
 }
+.main-box{
+    width:100%;
+}
 .container{
     display:flex;
     justify-content:space-evenly;
     margin-top:20px;
+    min-width:220px;
     
 }
 .container h2{
@@ -48,12 +52,12 @@ padding-bottom:5px;
 .small-container{
     display:flex;
     flex:2;
+    min-width:220px;
     justify-content:space-around;
     align-items:center;
-    margin-left: 10%;
-    
-   
+    margin-left: 10%;   
 }
+
 .detail-1{
 display:inline-block;
 margin-top:45px;
