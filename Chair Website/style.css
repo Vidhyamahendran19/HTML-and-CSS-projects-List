@@ -288,3 +288,8 @@ font-size:50px;
     width:380px;
     border-radius:100%;
 }
+@media screen {
+    body{
+        
+    }
+}
