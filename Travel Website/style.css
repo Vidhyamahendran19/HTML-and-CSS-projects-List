@@ -55,5 +55,6 @@ a{
 }
 .header a {
     cursor:poniter;
+    font-size:0.9 rem;
 }
 }
