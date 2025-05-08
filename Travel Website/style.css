@@ -51,11 +51,12 @@ a{
     margin-bottom:16px;
 }
 .header nav li{
-
+ color:red;
+ cursor:poniter;
 }
 .header a {
     cursor:poniter;
-    font-size:1 rem;
-    
+    color:black;
+
 }
 }
